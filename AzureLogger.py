@@ -15,10 +15,7 @@ import threading
 import sys
 
 # Azure Access Information
-ac_name = 'khpistorage'
-primary_key = 'GXLsHvq5fWp2DMHJtbBvTg+8FLLVcyCUglGi3MCaRCJBb+fecCh3hfcPV1Zonv8Lu6geD7Ii7MXmScpeb7niTw=='
-#secondary_key ='JrKjTTjTWzPGdFLFaIO8cMBU7FpBVzxE2u7zYpkcfoKFH3ZXLzqsHHlYAWFKtRrD04Yrp95TEquKw38sMNw1iQ=='
-table_name = 'TemperaturLog'
+import AzureConfig.py
 
 global Sensor
 global Ort
